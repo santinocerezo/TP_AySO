@@ -1,0 +1,122 @@
+ssh-keygen
+cd home
+ls
+cd repogit
+ls
+cd sasa
+cd UTN-FRA_SO_onBording/
+...cd
+clear
+-la
+ls -la
+clear
+ls
+pwd
+whoaim
+woami
+whoami
+echo "hola"
+echo $HOME
+git clone https://github.com/santinocerezo/Repo_Cerezo.git
+ls
+cd Repo_Cerezo/
+ls
+history
+history > historial.txt
+ls
+cat historial.txt 
+git status
+git add .
+git status
+git commit -m "Comentario 1"
+git config --global user.email "santinocf1@hotmail.com"
+git global --global user.name "santinocf"
+git config --global user.name "santinocf"
+git commit -m "Primer commit"
+git push
+git commit -m "Primer commit"
+clear
+exit
+whoiam
+whoami
+ls
+cd repogit/
+ls
+cd ..
+rd TP_AySO/
+man delete
+vagrant halt
+shutdown
+vagrant shutdown
+vagrant off
+git clone git@github.com:santinocerezo/TP_AySO.git
+ls
+cd repogit/
+git clone git@github.com:santinocerezo/TP_AySO.git
+cd ..
+ls
+rm TP_AySO/
+rmdir TP_AySO/
+ls
+vagrant destroy
+destroy
+history
+clear
+history
+clear
+ls
+cd repogit/
+git clone git@github.com:santinocerezo/TP_AySO.git
+git clone git@github.com:santinocerezo/TP_AySO_2.git
+ls
+cd repogit/
+git clone git@github.com:santinocerezo/TP_AySO_2.git
+ls
+cd TP_AySO_2/
+whoami
+echo "Usuario=$(whoami)">datos_usuario.txt
+git add .
+git status
+git commit -m "ADD: agregado 1er ejercicio
+sobre datos_usuarios.txt" 
+head /proc/cpuinfo | grep "model name"
+echo "Model name=$(head /proc/cpuinfo | grep "model name")" >> datos_usuario.txt 
+ls
+cat datos_usuario.txt 
+git add .
+git commit -m “feat: Añadiendo información de CPU”
+git status
+git commit -m "feat: anadiendo informacion de CPU"
+grep -v nologin /etc/passwd |sort -t":" -k10
+echo "$(grep -v nologin /etc/passwd | sort -t":" -k10)" > lista.ordenada.txt
+git status
+git add .
+git commit -m "ADD: Lista de usuarios ordenada"
+clear
+git status
+apropos "dump traffic
+
+"
+apropos "dump traffic"
+man dump traffic
+apropos "dump traffic"
+sudo mandb
+apropos "dump traffic"
+echo "$(apropos "dump traffic")" > comando_dump_net
+ls
+cat comando_dump_net 
+git add .
+git commit -m "ADD: Comando para capturar y analizar el trafico de red"
+cat << FIN >> README.md
+Alumno: Santino Cerezo
+Division: 115
+Turno: Manana 
+FIN
+
+ls
+cat README.md 
+git status
+git add .
+git commit -m "ADD: Agregue el archivo README de alumno,division y turno"
+history
+history -a $HOME/.bash_history

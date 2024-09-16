@@ -1,1 +1,2 @@
 Usuario=vagrant
+Model name=model name	: AMD Ryzen 7 5700U with Radeon Graphics
